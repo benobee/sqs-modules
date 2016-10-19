@@ -1,0 +1,21 @@
+#main-navigation{
+  @media screen and (max-width:640px){
+    display:none;
+  }
+}
+
+.horizontal-navigation-bar{
+	opacity:0;
+	&.is-ready{
+		opacity:1;
+	}
+}
+
+.app-module.navbar{
+	opacity:0;
+	transition:opacity 0.3s;
+	&.is-rendered{
+		opacity:1;
+	}
+	
+}
