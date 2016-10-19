@@ -1,0 +1,40 @@
+.app-module.collection{
+    opacity:0;
+    transition:opacity 0.3s;
+    &.is-loaded{
+      opacity:1;
+    }
+  	#categories{
+      .item{
+        display:inline-block;
+        padding:1em;
+        cursor:pointer;
+        curosr:hand;
+        text-transform:capitalize;
+        &:hover{
+          color:red;
+        }
+      }
+    }
+ 
+	.grid-item{
+       background:white;
+	   width:25%;
+       &:hover{
+
+       }
+       .image-wrapper{
+         margin:0.5em;
+         .image{
+           background-size:cover;
+           background-position:center;
+           height:200px;
+           width:100%;
+           background-repeat:no-repeat;
+         }
+       }
+       .title{
+         text-align:center;
+       }
+    }
+}
