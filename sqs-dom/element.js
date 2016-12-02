@@ -1,9 +1,7 @@
 import _ from 'underscore';
 
 //////////////////////////////////////////////////
-// lightweight DOM selector with only the most sought
-// after methods that snake oil salesman will be trying 
-// to con you with for years
+// lightweight DOM selector
 //////////////////////////////////////////////////
 
 class Element {
