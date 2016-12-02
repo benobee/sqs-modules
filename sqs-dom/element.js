@@ -53,11 +53,6 @@ class Element {
 	}
 };
 
-//////////////////////////////////////////////////
-// get this delinquent out of the house to do 
-// something useful. Tough Love, you know?
-//////////////////////////////////////////////////
-
 const $ = (query) => {
 	if (query !== undefined) {
 		return new Element(query);
